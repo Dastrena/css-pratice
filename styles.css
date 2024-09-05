@@ -1,0 +1,49 @@
+/* Скидання стилів за замовчуванням */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* Встановлюємо висоту для body */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стилі для header */
+.header {
+    height: 30vh;
+    background-color: rgb(86, 108, 189);
+    display: flex;
+    justify-content: flex-start; /* Горизонтально зліва */
+    align-items: center; /* Вертикально по центру */
+}
+
+/* Стилі для main */
+.main {
+    height: 40vh;
+    background-color: rgb(180, 191, 225);
+    display: flex;
+    justify-content: center; /* Горизонтально по центру */
+    align-items: center; /* Вертикально по центру */
+}
+
+/* Стилі для footer */
+.footer {
+    height: 30vh;
+    background-color: rgb(74, 75, 106);
+    display: flex;
+    justify-content: flex-end; /* Горизонтально праворуч */
+    align-items: center; /* Вертикально по центру */
+}
+
+/* Стилі для тексту */
+.text {
+    font-size: 40px;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
